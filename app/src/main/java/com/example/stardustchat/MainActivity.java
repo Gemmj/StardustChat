@@ -381,7 +381,7 @@ public class MainActivity extends AppCompatActivity
         Request request = new Request.Builder()
                 .url("https://api.siliconflow.cn/v1/chat/completions")
                 .post(body)
-                .addHeader("Authorization", "Bearer sk-xwwihipuwtfvhdbsisfeeqjhurtkbdzxicaypnthfcwwmnkj")
+                .addHeader("", "")
                 .build();
 
         // 创建 HTTP 客户端，设置超时时间
